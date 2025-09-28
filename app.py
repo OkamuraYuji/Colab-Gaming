@@ -183,6 +183,7 @@ def main():
     run("su - user -c \"DISPLAY=:1 nohup openbox &\"")
     run("su - user -c \"DISPLAY=:1 feh --bg-scale ~/wallpaper.jpg\"")
     run("su - user -c \"rm -rf ~/.config/sunshine ;DISPLAY=:1 nohup sunshine &\"")
+    run("su - user -c \"DISPLAY=:1 nohup tint2 &\"")
     run('su - user -c "DISPLAY=:1 nohup google-chrome &"')
     run("su - user -c \"DISPLAY=:1 nohup thunar &\"")
     run("su - user -c \"DISPLAY=:1 nohup heroic &\"")
@@ -204,4 +205,5 @@ if __name__ == "__main__":
         print("\nCtrl+C detected.")
         backup_user()
         print("Exiting.")
+
         sys.exit(0)
