@@ -1,5 +1,7 @@
 # Colab Cloud Gaming
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OkamuraYuji/Colab-Gaming/blob/main/Colab.ipynb)
+
 Play PC games on **Google Colab** with GPU acceleration and cloud streaming.
 
 ---
@@ -15,7 +17,7 @@ Play PC games on **Google Colab** with GPU acceleration and cloud streaming.
 
 ## Quick Start
 
-1. Open the Colab Notebook
+1. Open the Colab Notebook (click badge above)
 2. Run setup cells
 3. Connect with Moonlight (PIN required)
 
