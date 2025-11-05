@@ -16,10 +16,12 @@ Play PC games on **Google Colab** with GPU acceleration and cloud streaming.
 ---
 
 ## Quick Start
-
-1. Open the Colab Notebook (click badge above)
-2. Run setup cells
-3. Connect with Moonlight (PIN required)
+1. **Install Tailscale** on your device to connect:  
+   * **PC (Windows/macOS/Linux):** download from [https://tailscale.com/download](https://tailscale.com/download)  
+   * **Mobile (Android/iOS):** search for “Tailscale” on Google Play or the App Store and install  
+2. Open the Colab Notebook (click badge above)
+3. Run setup cells
+4. Connect with Moonlight (PIN required)
 
 ---
 
